@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">Nome</label>
+    <input type="text" id="name">
+
+    <br />
+    <hr />
+    
+    <label for="senha">Nome</label>
+    <input type="password" id="senha">
+
+    <br />
+    <hr />
+
+    <label for="arquivo">File</label>
+    <input type="file" id="arquivo">
+
+    <br />
+    <hr />
+
+    <label for="arq-img">Imagem</label>
+    <input type="image" id="arq-img">
+
+    <br />
+    <hr />
+
+    <input type="text">
+    <input type="submit" id="enviar" name="Enviar" value="Enviar!">
+
+    <br />
+    <hr />
+    
+    <label for="op">Nome</label>
+    <input type="radio" id="op" value="Nenhum" checked="checked">
+    <input type="radio" id="op" value="Carlos"> Carlos
+    <input type="radio" id="op" value="Filipe"> Filipe
+     
+    <br />
+    <hr />
+
+    <textarea name="Coments" id="cometarios" cols="30" rows="10"></textarea>
+
+    <br />
+    <hr />
+
+    <label for="check">Check</label>
+    <input type="checkbox" name="check" id="check" value="Filipe" checked="checked">
+    <input type="checkbox" name="check" id="check" value="Carlos">
+
+    <br />
+    <hr />
+
+    <select name="Pais" id="paises">
+        <option value="Espanha" selected="selected">Espanha</option>
+        <option value="Espanha">Brasil</option>
+        <option value="Espanha">Russia</option>
+        <option value="Espanha">EUA</option>
+        <option value="Espanha">Argentina</option>
+    </select>
+
+    <!-- Seleção suspensa -->
+    <select name="Pais" id="paises" size="4">
+        <option value="Espanha" selected="selected">Espanha</option>
+        <option value="Espanha">Brasil</option>
+        <option value="Espanha">Russia</option>
+        <option value="Espanha">EUA</option>
+        <option value="Espanha">Argentina</option>
+    </select>
+
+    <!-- Selecionar mais de uma -->
+    <select name="Pais" id="paises" multiple="multiple">
+        <option value="Espanha" selected="selected">Espanha</option>
+        <option value="Espanha">Brasil</option>
+        <option value="Espanha">Russia</option>
+        <option value="Espanha">EUA</option>
+        <option value="Espanha">Argentina</option>
+    </select>
+
+
+    <form action="" method="post">
+        <button>ADD</button>
+        <input type="hidden" name="bookmark" value="Test">
+    </form>
+</body>
+</html>
